@@ -5,7 +5,10 @@
 
 body {
     background-color: rgb(9, 9, 60);
+    background-image: url(https://images.unsplash.com/photo-1508233620467-f79f1e317a05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -30,7 +33,7 @@ select {
 }
 
 .container{
-    max-width: 600px;
+    max-width: 450px;
     margin: 60px auto;
     padding: 30px;
     background-color: var(--primary-color);
@@ -67,8 +70,10 @@ select {
 
 footer {
     color: lightgrey;
+    font-size: 12px;
 }
 
 a {
-    color: var(--primary-color);
+    color: white;
+    font-size: 12px;
 }
