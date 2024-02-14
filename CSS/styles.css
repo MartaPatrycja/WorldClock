@@ -80,7 +80,7 @@ a {
 
 @media (max-width: 567px) {
 
-    .body{
+    .container{
         max-width: 85%;
     }
 }
